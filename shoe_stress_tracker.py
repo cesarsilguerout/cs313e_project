@@ -31,7 +31,7 @@ class Shoe:
 
     def __str__(self):
         return (
-            f"Shoe: {self.model_name} | "
+            f"Shoe: {self.model_name: <18} | "
             f"Total Mileage: {self.mileage: >5.2f} | "
             f"Stress: {self.stress: >6.2f}"
         )
